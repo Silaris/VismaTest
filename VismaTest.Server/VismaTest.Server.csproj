@@ -12,10 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\VismaTestDB\VismaTestDB.csproj" />
     <ProjectReference Include="..\vismatest.client\vismatest.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\VismaTestDB\VismaTestDB.csproj" />
   </ItemGroup>
 
 </Project>

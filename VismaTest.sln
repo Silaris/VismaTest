@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VismaTest.Server", "VismaTest.Server\VismaTest.Server.csproj", "{77182B31-23E2-489D-81F9-97F53D5C3966}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VismaTest.Server", "VismaTest.Server\VismaTest.Server.csproj", "{77182B31-23E2-489D-81F9-97F53D5C3966}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8DF3114C-C5D6-4E17-BCC8-35E7F359EE43} = {8DF3114C-C5D6-4E17-BCC8-35E7F359EE43}
+	EndProjectSection
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vismatest.client", "vismatest.client\vismatest.client.esproj", "{966FBDD2-35FC-4A11-B2DB-987C82C72BA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VismaTestDB", "..\VismaTestDB\VismaTestDB.csproj", "{46597B98-82CD-4AC2-86F0-5763EB4644A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VismaTestDB", "VismaTestDB\VismaTestDB.csproj", "{8DF3114C-C5D6-4E17-BCC8-35E7F359EE43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +28,10 @@ Global
 		{966FBDD2-35FC-4A11-B2DB-987C82C72BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{966FBDD2-35FC-4A11-B2DB-987C82C72BA4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{966FBDD2-35FC-4A11-B2DB-987C82C72BA4}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{46597B98-82CD-4AC2-86F0-5763EB4644A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46597B98-82CD-4AC2-86F0-5763EB4644A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46597B98-82CD-4AC2-86F0-5763EB4644A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46597B98-82CD-4AC2-86F0-5763EB4644A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF3114C-C5D6-4E17-BCC8-35E7F359EE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF3114C-C5D6-4E17-BCC8-35E7F359EE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF3114C-C5D6-4E17-BCC8-35E7F359EE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF3114C-C5D6-4E17-BCC8-35E7F359EE43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

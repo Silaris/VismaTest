@@ -22,7 +22,7 @@ namespace VismaTest.Server.Controllers
         }
 
         [HttpGet(Name = "GetDevelopersWithSalaryGtManager")]
-        public IEnumerable<VismaTestDB.Models.Developer> getHighSalaries()
+        public IEnumerable<VismaTestDB.Models.Developer> GetHighSalaries()
         {
             return _context.Developers.Where(d => d.Salary > d.Manager.Salary)
                 .Include("Manager").ToArray();
