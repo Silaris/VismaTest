@@ -1,0 +1,22 @@
+<table *ngIf="developers">
+    <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Salary</th>
+            <th>Manager first name</th>
+            <th>Manager last name</th>
+            <th>Manager salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let developer of developers">
+            <td>{{ developer.firstName }}</td>
+            <td>{{ developer.lastName }}</td>
+            <td>{{ developer.salary }}</td>
+            <td>{{ developer.manager.firstName }}</td>
+            <td>{{ developer.manager.lastName }}</td>
+            <td>{{ developer.manager.salary }}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,6 @@
+{
+  "/developer/getHighSalaries": {
+     "target": "https://localhost:7041",
+     "secure": false
+  }
+}

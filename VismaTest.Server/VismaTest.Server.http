@@ -1,0 +1,11 @@
+@VismaTest.Server_HostAddress = http://localhost:5179
+
+GET {{VismaTest.Server_HostAddress}}/developers/get
+Accept: application/json
+
+###
+
+GET {{VismaTest.Server_HostAddress}}/developers/getHighSalaries
+Accept: application/json
+
+###
